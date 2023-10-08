@@ -2,6 +2,7 @@
 Responsive Pizza Bar Website
 
 Pizza Time: A delicious online experience. I designed and developed an e-commerce platform for this pizza restaurant, featuring an interactive menu with a variety of options including pizza, sushi, and pasta. Simplifying the online ordering process and providing a seamless user experience was the key goal of this project.
+Its basically design by using HTML,CSS,Bootstrap,Javascript,CSS Flexbox,CSS Grid ,CSS Layout for making it responsive and better user experience.
 
 A e-commerce platform tailored for the gastronomy industry. I led end-to-end design and development, utilizing technologies like React Icons, Carousel, Leaflet Maps.
 
