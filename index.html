@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to DinerM4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <script src="https://kit.fontawesome.com/4669dfa340.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <style>
+        .pizza-back{
+            background-image: url('images/free-pizza.jpg');
+            background-size: cover;
+            height: 450px!important;
+            
+        }
+        .offers h1{
+            color: #89b758;
+        }
+        .offers .btn {
+           background-color:  #89b758;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="menu-one">
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+
+            <div class="container ">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <img src="images/pizza-logo.png" alt="PIZZA LOGO" style="height: 4.0rem;">
+                    </span>
+                    <span class="navbar-caption-wrap"><a class="navbar-caption  text-light display-4" href="#"
+                            style="font-family: 'Permanent Marker', cursive;font-size: 25px; ">
+                            DinerM4</a>
+                    </span>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" data-app-modern-menu="true">
+                        <li class="nav-item">
+                            <a class="nav-link link text-light " href="#">
+                                HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#">LIVE
+                                DEMO</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-light" href="#">DEMO 1</a></li>
+                                <li><a class="dropdown-item" href="#">DEMO 2</a></li>
+                                <li><a class="dropdown-item" href="#">DEMO 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#">LIVE DEMO
+                                BLOCKS</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="#">BLOCK 1</a></li>
+                                <li><a class="dropdown-item" href="#">BLOCK 2</a></li>
+                                <li><a class="dropdown-item" href="#">BLOCK 3</a></li>
+                            </ul>
+                        </li>
+
+                        <div class="navbar-buttons ">
+                            <a class="btn btn-md btn-light rounded-pill display-5 " href="#"> BUY NOW</a>
+                        </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container mt-5 "><br>
+            <div class="row "><br><br>
+                <div class="col-md-6 col-sm-12 col-lg-6 ">
+
+                    <div class="title-align">
+                        <h2 class="text-warning">HAPPY HOUR SPECIAL</h2>
+                    </div>
+                    <h1 class=" display-1 fw-bold text-light pb-4">PIZZA BAR</h1>
+
+                    <p class="text-light  pb-3">Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit
+                        amet
+                        luctus turpis porttitor. Ut libero ante, varius quis ligula.</p>
+                    <div class="button">
+                        <a class="btn btn-md btn-warning rounded-pill display-3 p-3 fw-bold" href="#">
+                            <span><i class="bi bi-cart3 "></i></span>
+                            ORDER ONLINE
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-12  col-lg-6 ">
+                    <div class=" price-title  ">
+                        <div class="pricebox ">
+                            <h4 class=" display-7">Only</h4>
+                            <h3 class=" display-4 fw-bold" style="color: red;">$19</h3>
+                        </div>
+                    </div>
+
+                    <div class="pizza">
+                        <img class="img-fluid" src="images/pizza.png" alt="pizza">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <section class="items">
+        <div class="container"><br><br><br>
+            <div class="row">
+                <div class="col-md-12 pb-5 col-lg-12 text-center">
+                    <h2 class=" display-8 " style="font-family: 'Permanent Marker', cursive; color: red;">Specials Combo
+                    </h2>
+                    <h1 class=" display-5 fw-bold">Our Best Sellers</h1>
+                </div>
+                <div class=" col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img src="images/thai-combo.png" class="img-fluid" alt="thai-combo" />
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Thai-Combo</h6>
+                            <p class="card-text text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <h5 class="price pb-5 display-7 text-center rounded-circle ">$ 12</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img src="images/mozzarella-pizza.png" class="img-fluid" alt="mozzarella-pizza" />
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Mozzarella-Pizza</h6>
+                            <p class="card-text text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <h5 class="price pb-5  display-7 text-center rounded-circle">$ 14</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img src="images/thai-combo.png" class="img-fluid" alt="thai-combo" />
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Thai-Combo</h6>
+                            <p class="card-text text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <h5 class="price pb-5  display-7 text-center rounded-circle">$ 12</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img src="images/mozzarella-pizza.png" class="img-fluid" alt="Mozzarella-Pizza" />
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Mozzarella-Pizza</h6>
+                            <p class="card-text text-center">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <h5 class="price pb-5  display-7 text-center rounded-circle">$ 14</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <section class="offers" style="position: relative;">
+        <div class="container pizza-back img-fluid">
+            <div class="row">
+                <div class="col-md-5 col-lg-5 col-sm-12  mt-5">
+                    <div class="text-uppercase fw-bold display-4 text-light">Buy <span>2</span> Get <span>1</span></div><br>
+                    <h1 class="fw-bold display-2">Free pizza!</h1>
+                    <a class="btn btn-md  rounded-pill display-3 p-3 fw-bold" href="#">
+                        <span><i class="bi bi-cart3 "></i></span>
+                        ORDER ONLINE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <br><br>
+    <section class="new-combo">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-lg-5 ">
+                    <div class="media-content">
+                        <h2 class="  display-7" style="font-family: 'Permanent Marker', cursive; color: red;"> Welcome
+                        </h2>
+                        <h1 class=" pb-3 fw-bold display-2">We make the best pizza in your town</h1>
+
+                        <h3 class=" pb-3  display-8"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec
+                                ullamcorper neque dapibus ipsum semper.</strong></h3>
+
+
+                        <p class="  pb-3 display-8 text-muted">Suspendisse eu lorem
+                            vitae odio eleifend imperdiet. Duis in efficitur sem, at lobortis nulla. In nec velit
+                            sollicitudin, mollis tortor semper, ultrices mi.<br></p>
+                        <div class="button">
+                            <a class="btn btn-md btn-danger rounded-pill display-3 p-3 fw-bold" href="#">
+                                <span><i class="bi bi-arrow-right-square-fill"></i></i></span>
+                                GET DIRECTION</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-2 icon-col">
+
+
+                    <div class="icon-wrap">
+                        <span class="my-icon"><i class="bi bi-apple"></i></span>
+                        <h4 class=" display-8"><strong>A new look on the right food!</strong></h4>
+                    </div>
+
+                    <div class="icon-wrap ">
+                        <span class="my-icon"><i class="bi bi-globe2"></i></span>
+                        <h4 class=" display-8"><strong>The use of natural best quality products</strong></h4>
+                    </div>
+
+                    <div class="icon-wrap">
+                        <span class="my-icon "><i class="bi bi-people-fill"></i></span>
+                        <h4 class="display-8"><strong>World’s best Chef and Nutritionist!</strong></h4>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 col-lg-5 img-col">
+                    <div class="figure">
+                        <img src="images/pizza.png" class="img-fluid" alt="pizza">
+                    </div>
+                    <div class=" icon-wrap ">
+                        <span class="my-icon"><ion-icon name="cube"></ion-icon></span>
+                        <h4 class="icon-text  display-8"><strong>Fastest delivery on your door step</strong></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+    <section class="ingredient">
+        <div class="container  ">
+            <div class="row natural-ingrediant">
+
+                <div class="col-md-12 col-lg-10 text-center">
+                    <h2 class="  display-7 " style="font-family: 'Permanent Marker', cursive; color: red;">Ingredient
+                    </h2>
+                    <h1 class=" pb-3 fw-bold display-5 text-light">Сooked with natural <br>ingredient</h1>
+                </div>
+
+
+
+                <div class="col-md-12 align-left col-lg-4">
+                    <div class="item-content">
+                        <h3 class=" display-7 text-light">Fresh <a href="#"><strong>Vegetables</strong></a></h3>
+                        <p class=" display-7 text-light">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit
+                            amet
+                            luctus.</p>
+                    </div>
+
+
+                    <div class="item-content">
+                        <h3 class=" pb-2  display-7 text-light">Lettuce <a href="#"><strong>Leaf</strong></a></h3>
+                        <p class=" pb-3 display-7 text-light">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit
+                            amet
+                            luctus.</p>
+                    </div>
+
+                    <div class="item-content">
+                        <h3 class=" pb-2  display-7 text-light">Glow <a href="#"><strong>Cheese</strong></a></h3>
+                        <p class="pb-3  display-7 text-light">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit
+                            amet
+                            luctus.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-lg-4  md-pb">
+                    <div class="figure">
+                        <img src="images/pizza.png" class="img-fluid" alt="pizza">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 section-one">
+                    <div class="item-content">
+                        <h3 class=" pb-2 display-7 text-light section-titile">Mild <a
+                                href="#"><strong>Butter</strong></a></h3>
+                        <p class=" pb-3 display-7 text-light ">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit
+                            amet
+                            luctus.</p>
+                    </div>
+
+
+                    <div class="item-content">
+                        <h3 class=" pb-2  display-7 text-light section-titile">Sleek <a
+                                href="#"><strong>Onion</strong></a></h3>
+                        <p class=" pb-3 display-7 text-light">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit
+                            amet
+                            luctus.</p>
+                    </div>
+
+                    <div class="item-content">
+                        <h3 class=" pb-2  display-7 text-light section-titile">Slices <a
+                                href="#"><strong>Beef</strong></a></h3>
+                        <p class=" pb-3  display-7 text-light">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit
+                            amet
+                            luctus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content04 ">
+        <div class="container">
+            <h4 class="display-5 text-center">Menu</h4>
+            <h2 class=" display-5 text-dark fw-bold  text-center">Choose your dish</h2>
+
+            <div class="justify-content-center pt-5 row">
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">SUSHI</h5>
+                    <div class="menu-box">
+
+                        <p class="box-text fw-bold text-dark display-7">Salmon Pizza</p>
+                        <div class="line"></div>
+                        <span class=" box-price fw-bold  display-7">
+                            $18</span>
+                    </div>
+                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">THAI FOOD</h5>
+                                    <div class="menu-box">
+    
+                                        <p class="box-text fw-bold text-dark display-7">Spicy Fish Pizza</p>
+                                        <div class="line"></div>
+                                        <span class=" box-price fw-bold  display-7">
+                                            $18</span>
+                                    </div>
+                                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">THAI FOOD</h5>
+                                    <div class="menu-box">
+    
+                                        <p class="box-text fw-bold text-dark display-7">Spicy Fish Pizza</p>
+                                        <div class="line"></div>
+                                        <span class=" box-price fw-bold  display-7">
+                                            $18</span>
+                                    </div>
+                                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">PIZZA</h5>
+                                    <div class="menu-box">
+    
+                                        <p class="box-text fw-bold text-dark display-7">Mozzarella-Pizza</p>
+                                        <div class="line"></div>
+                                        <span class=" box-price fw-bold  display-7">
+                                            $18</span>
+                                    </div>
+                                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">PIZZA</h5>
+                                    <div class="menu-box">
+    
+                                        <p class="box-text fw-bold text-dark display-7">Mozzarella-Pizza</p>
+                                        <div class="line"></div>
+                                        <span class=" box-price fw-bold  display-7">
+                                            $18</span>
+                                    </div>
+                                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">SUSHI</h5>
+                                    <div class="menu-box">
+    
+                                        <p class="box-text fw-bold text-dark display-7">Salmon Pizza</p>
+                                        <div class="line"></div>
+                                        <span class=" box-price fw-bold  display-7">
+                                            $18</span>
+                                    </div>
+                                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">SUSHI</h5>
+                                    <div class="menu-box">
+    
+                                        <p class="box-text fw-bold text-dark display-7">Salmon Pizza</p>
+                                        <div class="line"></div>
+                                        <span class=" box-price fw-bold  display-7">
+                                            $18</span>
+                                    </div>
+                                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <h5 class="item-tag fw-bold display-7">PIZZA</h5>
+                                    <div class="menu-box">
+    
+                                        <p class="box-text fw-bold text-dark display-7">Mozzarella-Pizza </p>
+                                        <div class="line"></div>
+                                        <span class=" box-price fw-bold  display-7">
+                                            $18</span>
+                                    </div>
+                                    <h3 class="item-title  fw-light fs-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Ullamcorper eget lectus porta euismod a libero.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content05">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pb-5 col-lg-12 align-center">
+                    <h2 class=" fw-bold  display-5 text-center" style="font-family: 'Permanent Marker', cursive; color: red;">DEALS</h2>
+                    <h1 class=" pb-3  display-5 text-dark fw-bold  text-center">Choose your dishes</h1>
+                </div>
+                <div class="card item text-center features-image col-12 col-md-10 col-lg-4">
+                    <div class="item-wrapper card1">
+                        <div class="card-box align-left text-light   pt-4">
+                            <h4 class="card-title pb-2 fw-bold display-7">Fresh Pizza</h4>
+                            <p class="section05-text fw-bold pb-2 display-8"> Vegan Set</p>
+    
+                            <div class="link-align">
+                                <div class="link-inline">
+                                    <div class="link-wrap">
+                                        <h5 class="link fw-bold  display-8">ORDER NOW</h5>
+                                        <span><i class=" bi bi-arrow-right display-8 "></i></span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="card-img my-auto">
+                            <img src="images/thai-combo.png" class="img-fluid"  alt="#">
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="card item  text-center features-image col-12 col-md-10 col-lg-4">
+                    <div class="item-wrapper card2">
+    
+                        <div class="card-box align-left text-light   pt-3">
+    
+    
+    
+                            <h4 class="card-title pb-2 fw-bold display-7">PIZZA</h4>
+                            <p class="section05-text fw-bold pb-2  display-8">Mozzarella</p>
+    
+                            <div class="link-align">
+                                <div class="link-inline">
+                                    <div class="link-wrap">
+                                        <h5 class="link fw-bold  display-8">ORDER NOW</h5>
+                                        <span> <i class="bi bi-arrow-right display-7 "></i></span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="card-img my-auto">
+                            <img src="images/pizza.png" class="img-fluid"  alt="#">
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="card item text-center features-image col-12 col-md-10 col-lg-4">
+                    <div class="item-wrapper card3">
+    
+                        <div class="card-box align-left text-light  pt-4">
+                            <h4 class="card-title pb-2 fw-bold  display-7">Burger</h4>
+                            <p class="section05-text fw-bold pb-2  display-8">Beef Steak</p>
+    
+                            <div class="link-align">
+                                <div class="link-inline">
+                                    <div class="link-wrap">
+                                        <h5 class="link fw-bold display-8">ORDER NOW</h5>
+                                        <span >  <i class="bi bi-arrow-right display-7 "></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="card-img my-auto">
+                            <img src="images/burger.png" class="img-fluid" alt="#">
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content06 carouse3 slide testimonials-slider" data-interval="false" >
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12  col-md-12 pb-5 col-lg-12">
+                    <h3 class=" text-center  display-5">Reward</h3>
+                    <h2 class="text-center fw-bold text-dark display-5">
+                        Clients review</h2>
+    
+                </div>
+            </div>
+    
+    
+            <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false" id="testimonials03-20-carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+    
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="user_image">
+                                    <img src="images/Client-img.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="user align-left col-lg-6">
+    
+                                <div class="user_text pb-3">
+                                    <span > <i class="bi bi-quote"></i></span>
+    
+                                    <p class="fw-bold display-7"><em>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque dapibus
+                                            ipsum
+                                            semper, amet luctus turpis porttitor.</em></p>
+                                </div>
+    
+                                <div class="align">
+                                    <h4 class="user_name pb-1 fw-bold display-7">Ann Grayson</h4>
+                                </div>
+                                <p class="user_status  display-4">Manager</p>
+                            </div>
+                        </div>
+    
+                    </div><div class="carousel-item">
+    
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="user_image">
+                                    <img src="#" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="user align-left col-lg-6">
+    
+                                <div class="user_text pb-3">
+                                    <span > <i class="bi bi-quote"></i></span>
+    
+                                    <p class="fw-bold display-7"><em>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque dapibus
+                                            ipsum
+                                            semper, amet luctus turpis porttitor.</em></p>
+                                </div>
+    
+                                <div class="align">
+                                    <h4 class="user_name pb-1 fw-bold display-7">Ben Smith</h4>
+                                </div>
+                                <p class="user_status  display-4">Designer</p>
+                            </div>
+                        </div>
+    
+                    </div><div class="carousel-item">
+    
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="user_image">
+                                    <img src="#" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="user align-left col-lg-6">
+    
+                                <div class="user_text pb-3">
+                                    <span> <i class="bi bi-quote"></i></span>
+    
+                                    <p class="fw-bold display-7"><em>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque dapibus
+                                        ipsum semper, amet luctus turpis porttitor.</em>
+                                    </p>
+                                </div>
+    
+                                <div class="align">
+                                    <h4 class="user_name pb-1 fw-bold display-7">Jane Brown</h4>
+                                </div>
+                                <p class="user_status  display-4">Client</p>
+                            </div>
+                        </div>
+    
+                    </div></div>
+    
+                <ol class="carousel-indicators">
+                    <li data-app-prevent-settings="" data-target="#testimonials03-20-carousel" class=" active" data-slide-to="0"></li>
+                    <li data-app-prevent-settings="" data-target="#testimonials03-20-carousel"  data-slide-to="1"></li>
+                    <li data-app-prevent-settings="" data-target="#testimonials03-20-carousel"data-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class="content07 " >
+        <div class="container">
+            <div class="row">
+                <div class="title col-12 text-center">
+                    <h2 class="pb-2 display-5">team</h2>
+                    <h3 class=" pb-3  display-5">Behind the taste</h3>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container pt-3 mt-2">
+            <div class="row">
+                <div class=" p-3 text-center col-12 col-md-6 col-lg-3">
+                    <div class="panel-item p-3">
+                        <div class="card-block">
+                            <div class="photos">
+                                <img src="images/client-img1.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author-name fw-bold display-6">
+                                John Smith
+                            </div>
+                            <p class="author-desc pt-1  display-7">
+                                Manager
+                            </p>
+    
+                            <div class="social-list pt-3 pl-0 mb-0">
+                                <a href="#" target="_blank">
+                                    <span class="twitter iconfont"> <i class="bi bi-twitter"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="facebook iconfont "><i class="bi bi-facebook"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="instagram iconfont"> <i class="bi bi-instagram"></i></span>
+                                </a>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class=" p-3 text-center col-12 col-md-6 col-lg-3">
+                    <div class="panel-item p-3">
+                        <div class="card-block">
+                            <div class="photos">
+                                <img src="images/Client-img.jpg"class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="author-name fw-bold display-6">
+                                Ann Jane</div>
+                            <p class="author-desc pt-1  display-7">Desinger</p>
+    
+                            <div class="social-list pt-3 pl-0 mb-0">
+                                <a href="#" target="_blank">
+                                    <span class="twitter iconfont"> <i class="bi bi-twitter"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="facebook iconfont"><i class="bi bi-facebook"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="instagram iconfont"> <i class="bi bi-instagram"></i></span>
+                                </a>
+                                
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class=" p-3 text-center col-12 col-md-6 col-lg-3">
+                    <div class="panel-item p-3">
+                        <div class="card-block">
+                            <div class="photos">
+                                <img src="images/client-img2.jpg"class="img-fluid">
+                            </div>
+    
+                        </div>
+                        <div class="card-footer">
+                            <div class="author-name fw-bold display-6">
+                                Ben James</div>
+                            <p class="author-desc pt-1  display-7">Chief</p>
+    
+                            <div class="social-list pt-3 pl-0 mb-0">
+                                <a href="#" target="_blank">
+                                    <span class="twitter iconfont"> <i class="bi bi-twitter"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="facebook iconfont"><i class="bi bi-facebook"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="instagram iconfont"> <i class="bi bi-instagram"></i></span>
+                                </a>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class=" p-3 text-center col-12 col-md-6 col-lg-3">
+                    <div class="panel-item p-3">
+                        <div class="card-block">
+                            <div class="photos">
+                                <img src="images/client-img3.jpg" class="img-fluid">
+                            </div>
+    
+                        </div>
+                        <div class="card-footer">
+                            <div class="author-name fw-bold display-6">
+                                Dan Brown</div>
+                            <p class="author-desc pt-1  display-7">
+                                Chief</p>
+    
+                            <div class="social-list pt-3 pl-0 mb-0">
+                                <a href="#" target="_blank">
+                                    <span class="twitter iconfont"> <i class="bi bi-twitter"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="facebook iconfont" ><i class="bi bi-facebook"></i></span>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <span class="instagram iconfont"> <i class="bi bi-instagram"></i></span>
+                                </a>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div>
+    </section>
+    <section class="form01">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-auto md-pb formone" data-form-type="formoid">
+                    
+                    <form action="#"  class="formone form-with-styler" data-form-title="Form Name">
+                        <input type="hidden" name="email" data-form-email="true" value="C7yiKowyCdUcWLfCiF6DKtUuS3CZR1hj2wRq1Cp7APHoG80Y4WQV13atUa0w27UcR3h9NaYPcwxLFW5wcKOPDh53HnV3r+u6LOzMz8YFuc6wpvexo4n753E+AUs3dPaC.Jm0cmI9CqDWTTXWKzTLzhI5uvq+WIdRdXNK7DgYCJ1ARPJODdQ7A7RQRNOUDe7/rm/WKm2zEz2XiVwxY2W7Cvxzym8iusMDwuD8HUEBEmg6A2J29SLmtw39UWrOf4Wxf">
+                        <div class="form-row">
+                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
+                                the form!</div>
+                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
+                                problem!</div>
+                        </div>
+                        <div class="dragArea form-row">
+                            <div class="col-lg-12">
+                                <h5 class="text-left  display-7"><strong>Ask a question</strong>
+                                </h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="Name">
+                                <input type="text" name="Name" placeholder="Name" data-form-field="Name" required="required" class="form-control display-7" value="" id="Name-form01-21">
+                            </div>
+                            <div data-for="Email" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                <input type="email" name="Email" placeholder="Email" data-form-field="Email" class="form-control display-7" required="required" value="" id="Email-form01-21">
+                            </div>
+                            <div data-for="Phone" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                <input type="tel" name="Phone" placeholder="Phone Number" data-form-field="Phone" class="form-control display-7" required="required" value="" id="Phone-form01-21">
+                            </div>
+                            <div data-for="Message" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                <textarea name="Message" placeholder="Your Message" data-form-field="Message" required="required" class="form-control display-7" id="Message-form01-21"></textarea>
+                            </div>
+                            <div class="col-auto"><button type="submit" class="btn btn-success display-4">SEND MESSAGE</button></div>
+                        </div>
+                    </form>
+                   
+                </div>
+    
+    
+                <div class="col-lg-6 col-md-12">
+                    <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAEIpgj38KyLFELm2bK9Y7krBkz1K-cMq8&amp;q=place_id:ChIJn6wOs6lZwokRLKy1iqRcoKw" allowfullscreen=""></iframe></div>
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+    <section class="content08" >
+        <div class="container">
+            <div class="row jc-sb">
+    
+                <div class="col-md-12 col-lg-7 md-pb my-auto">
+                    <div class="media-content">
+                        <h2 class="text-left   display-5">download app</h2>
+                        <h1 class=" pb-3 text-left fw-bold display-4">Download the app. Click order and enjoy.</h1>
+    
+    
+                        <p class="text text-left pb-3 display-7">Lorem ipsum dolor
+                            sit amet, consectetur adipiscing elit. Donec ullamcorper neque dapibus ipsum semper, sit amet
+                            luctus turpis porttitor. Ut libero ante, varius quis ligula in, aliquet consectetur tortor.
+                            Proin aliquet neque nibh, pretium rutrum quam mattis.<br></p>
+                        <div class="section-btn text-left">
+                            <a class="btn btn-md btn-dark display-4" href="#">
+                                <span class=" btn-icon "><i class="bi bi-google-play"></i></span>Get it on<br>Google
+                                Play<br>
+                            </a>
+                            <a class="btn btn-md btn-dark display-4" href="#">
+                                <span class="btn-icon  "> <i class="bi bi-apple"></i></span>Get it on<br>App
+                                Store<br>
+                            </a>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="col-md-12 col-lg-5 my-auto">
+                    <div class="figurelast">
+                        <img src="images/fig-last.png" alt="#">
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="content-footer" >
+        <div class="container">
+            <div class="row text-light justify-content-center">
+    
+    
+                <div class="col-md-12 col-lg-12 pb-5 my-auto md-pb">
+                    <div class="logo-wrap">
+                        <img class="logo img-fluid" src="images/pizza-logo.png"  alt="#">
+                    </div>
+                </div>
+                <div class="col-md-6 align-center col-lg-3">
+                    <div class="item-content">
+                        <h3 class=" pb-2 fw-bold display-7">Address</h3>
+                        <p class="text pb-3  display-7">570 8th Ave,
+                            <br>New York, NY 10018
+                            <br>United States
+                        </p>
+                    </div>
+    
+    
+                </div>
+    
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="item-content">
+                        <h3 class=" pb-2 fw-bold display-7">Book a table</h3>
+                        <p class="text  display-7">Dogfood och Sliders
+                            foodtruck.
+                            <br>Under Om oss kan ni läsa
+                        </p>
+                        <h4 class="phone fw-bold pb-5  display-7">(850)
+                            435-4155</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="item-content">
+                        <h3 class=" pb-2 fw-bold display-7">Opening hours&nbsp;</h3>
+                        <p class="text pb-3  display-7">Monday – Friday
+                            <br>10.00 AM – 11.00 PM
+                            <br></p>
+                    </div>
+    
+                </div>
+    
+    
+                <div class="col-md-6 col-lg-3 pb-5 text-center">
+                    <div class="item-content">
+                        <h3 class=" pb-2 fw-bold display-7">Instagram feed
+                        </h3>
+                        <img class="feedimg img-fluid" src="images/insta-feed01.jpg" alt="#">
+                        <img class="feedimg img-fluid" src="images/insta-feed02.jpg" alt="#">
+                        <img class="feedimg img-fluid" src="images/insta-feed03.jpg" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer" >
+        <div class="container">
+            <div class="row text-center text-light">
+                <div class="col-lg-8">
+                    <div class="row-links">
+                        <ul class="foot-menu">
+                            <li class="foot-menu-item  display-7">About us</li>
+                            <li class="foot-menu-item  display-7">Menu</li>
+                            <li class="foot-menu-item  display-7">Blog</li>
+                            <li class="foot-menu-item  display-7">Gallery</li>
+                            <li class="foot-menu-item  display-7">Help</li>
+                            <li class="foot-menu-item  display-7">Contact</li>
+                        </ul>
+                    </div>
+                    <div class="row-copyright">
+                        <p class="text mb-0  text-light text-left display-7">
+                            © Copyright 2019 Mobirise - All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row social-row">
+                        <div class="social-list text-right">
+                            <div class="soc-item">
+                                <a href="#" target="_blank">
+                                    <span ><i class="bi bi-twitter"></i></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="#" target="_blank">
+                                    <span ><i class="bi bi-facebook"></i></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="#" target="_blank">
+                                    <span ><i class="bi bi-youtube"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
